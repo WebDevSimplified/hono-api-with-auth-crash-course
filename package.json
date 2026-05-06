@@ -1,0 +1,25 @@
+{
+  "name": "hono-api-with-auth-crash-course",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.14",
+    "@hono/standard-validator": "^0.2.2",
+    "dotenv": "^17.4.2",
+    "drizzle-orm": "^1.0.0-rc.2",
+    "hono": "^4.12.18",
+    "pg": "^8.20.0",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "@types/pg": "^8.20.0",
+    "drizzle-kit": "^1.0.0-rc.2",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
